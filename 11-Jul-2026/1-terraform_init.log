@@ -1,0 +1,47 @@
+2026-07-12T01:44:30.967+0900 [INFO]  Terraform version: 1.15.8
+2026-07-12T01:44:30.968+0900 [DEBUG] using github.com/hashicorp/go-tfe v1.105.0
+2026-07-12T01:44:30.968+0900 [DEBUG] using github.com/hashicorp/hcl/v2 v2.24.0
+2026-07-12T01:44:30.968+0900 [DEBUG] using github.com/hashicorp/terraform-svchost v0.2.1
+2026-07-12T01:44:30.968+0900 [DEBUG] using github.com/zclconf/go-cty v1.18.0
+2026-07-12T01:44:30.968+0900 [INFO]  Go runtime version: go1.25.10
+2026-07-12T01:44:30.968+0900 [INFO]  CLI args: []string{"/home/eithandarphyo/.asdf/installs/terraform/1.15.8/bin/terraform", "init"}
+2026-07-12T01:44:30.968+0900 [DEBUG] Attempting to open CLI config file: /home/eithandarphyo/.terraformrc
+2026-07-12T01:44:30.968+0900 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2026-07-12T01:44:30.968+0900 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2026-07-12T01:44:30.968+0900 [DEBUG] ignoring non-existing provider search directory /home/eithandarphyo/.terraform.d/plugins
+2026-07-12T01:44:30.968+0900 [DEBUG] ignoring non-existing provider search directory /home/eithandarphyo/.local/share/terraform/plugins
+2026-07-12T01:44:30.968+0900 [DEBUG] ignoring non-existing provider search directory /usr/local/share/terraform/plugins
+2026-07-12T01:44:30.968+0900 [DEBUG] ignoring non-existing provider search directory /usr/share/terraform/plugins
+2026-07-12T01:44:30.968+0900 [DEBUG] ignoring non-existing provider search directory /var/lib/snapd/desktop/terraform/plugins
+2026-07-12T01:44:30.968+0900 [INFO]  CLI command args: []string{"init"}
+2026-07-12T01:44:31.869+0900 [DEBUG] checking for provisioner in "."
+2026-07-12T01:44:31.869+0900 [DEBUG] checking for provisioner in "/home/eithandarphyo/.asdf/installs/terraform/1.15.8/bin"
+2026-07-12T01:44:31.870+0900 [DEBUG] Starting graph walk: walkInit
+2026-07-12T01:44:31.870+0900 [DEBUG] Service discovery for registry.terraform.io at https://registry.terraform.io/.well-known/terraform.json
+2026-07-12T01:44:31.923+0900 [DEBUG] GET https://registry.terraform.io/v1/providers/hashicorp/azurerm/versions
+2026-07-12T01:44:31.944+0900 [DEBUG] GET https://registry.terraform.io/v1/providers/hashicorp/kubernetes/versions
+2026-07-12T01:44:31.964+0900 [DEBUG] GET https://registry.terraform.io/v1/providers/kreuzwerker/docker/versions
+2026-07-12T01:44:31.989+0900 [DEBUG] GET https://registry.terraform.io/v1/providers/hashicorp/aws/versions
+2026-07-12T01:44:49.358+0900 [INFO]  Terraform version: 1.15.8
+2026-07-12T01:44:49.358+0900 [DEBUG] using github.com/hashicorp/go-tfe v1.105.0
+2026-07-12T01:44:49.358+0900 [DEBUG] using github.com/hashicorp/hcl/v2 v2.24.0
+2026-07-12T01:44:49.358+0900 [DEBUG] using github.com/hashicorp/terraform-svchost v0.2.1
+2026-07-12T01:44:49.358+0900 [DEBUG] using github.com/zclconf/go-cty v1.18.0
+2026-07-12T01:44:49.358+0900 [INFO]  Go runtime version: go1.25.10
+2026-07-12T01:44:49.358+0900 [INFO]  CLI args: []string{"/home/eithandarphyo/.asdf/installs/terraform/1.15.8/bin/terraform", "init"}
+2026-07-12T01:44:49.359+0900 [DEBUG] Attempting to open CLI config file: /home/eithandarphyo/.terraformrc
+2026-07-12T01:44:49.359+0900 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2026-07-12T01:44:49.359+0900 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2026-07-12T01:44:49.359+0900 [DEBUG] ignoring non-existing provider search directory /home/eithandarphyo/.terraform.d/plugins
+2026-07-12T01:44:49.359+0900 [DEBUG] ignoring non-existing provider search directory /home/eithandarphyo/.local/share/terraform/plugins
+2026-07-12T01:44:49.359+0900 [DEBUG] ignoring non-existing provider search directory /usr/local/share/terraform/plugins
+2026-07-12T01:44:49.359+0900 [DEBUG] ignoring non-existing provider search directory /usr/share/terraform/plugins
+2026-07-12T01:44:49.359+0900 [DEBUG] ignoring non-existing provider search directory /var/lib/snapd/desktop/terraform/plugins
+2026-07-12T01:44:49.359+0900 [INFO]  CLI command args: []string{"init"}
+2026-07-12T01:44:49.993+0900 [DEBUG] checking for provisioner in "."
+2026-07-12T01:44:49.993+0900 [DEBUG] checking for provisioner in "/home/eithandarphyo/.asdf/installs/terraform/1.15.8/bin"
+2026-07-12T01:44:49.993+0900 [DEBUG] Starting graph walk: walkInit
+2026-07-12T01:44:49.993+0900 [DEBUG] Service discovery for registry.terraform.io at https://registry.terraform.io/.well-known/terraform.json
+2026-07-12T01:44:50.051+0900 [DEBUG] GET https://registry.terraform.io/v1/providers/hashicorp/aws/versions
+2026-07-12T01:44:50.068+0900 [DEBUG] GET https://registry.terraform.io/v1/providers/hashicorp/kubernetes/versions
+2026-07-12T01:44:50.088+0900 [DEBUG] GET https://registry.terraform.io/v1/providers/kreuzwerker/docker/versions
