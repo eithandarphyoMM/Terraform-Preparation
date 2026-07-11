@@ -1,0 +1,6 @@
+# Ignore the local terraform binaries folder (It's huge, do not push!)
+.terraform/
+
+# Ignore local state files (They can contain sensitive secrets/passwords!)
+*.tfstate
+*.tfstate.*
