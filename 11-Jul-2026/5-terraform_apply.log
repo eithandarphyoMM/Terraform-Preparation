@@ -1,0 +1,48 @@
+2026-07-12T01:37:40.714+0900 [INFO]  Terraform version: 1.15.8
+2026-07-12T01:37:40.714+0900 [DEBUG] using github.com/hashicorp/go-tfe v1.105.0
+2026-07-12T01:37:40.714+0900 [DEBUG] using github.com/hashicorp/hcl/v2 v2.24.0
+2026-07-12T01:37:40.714+0900 [DEBUG] using github.com/hashicorp/terraform-svchost v0.2.1
+2026-07-12T01:37:40.714+0900 [DEBUG] using github.com/zclconf/go-cty v1.18.0
+2026-07-12T01:37:40.714+0900 [INFO]  Go runtime version: go1.25.10
+2026-07-12T01:37:40.714+0900 [INFO]  CLI args: []string{"/home/eithandarphyo/.asdf/installs/terraform/1.15.8/bin/terraform", "apply", "-auto-approve"}
+2026-07-12T01:37:40.714+0900 [DEBUG] Attempting to open CLI config file: /home/eithandarphyo/.terraformrc
+2026-07-12T01:37:40.714+0900 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2026-07-12T01:37:40.714+0900 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2026-07-12T01:37:40.714+0900 [DEBUG] ignoring non-existing provider search directory /home/eithandarphyo/.terraform.d/plugins
+2026-07-12T01:37:40.714+0900 [DEBUG] ignoring non-existing provider search directory /home/eithandarphyo/.local/share/terraform/plugins
+2026-07-12T01:37:40.714+0900 [DEBUG] ignoring non-existing provider search directory /usr/local/share/terraform/plugins
+2026-07-12T01:37:40.714+0900 [DEBUG] ignoring non-existing provider search directory /usr/share/terraform/plugins
+2026-07-12T01:37:40.714+0900 [DEBUG] ignoring non-existing provider search directory /var/lib/snapd/desktop/terraform/plugins
+2026-07-12T01:37:40.714+0900 [INFO]  CLI command args: []string{"apply", "-auto-approve"}
+2026-07-12T01:37:41.289+0900 [DEBUG] checking for provisioner in "."
+2026-07-12T01:37:41.289+0900 [DEBUG] checking for provisioner in "/home/eithandarphyo/.asdf/installs/terraform/1.15.8/bin"
+2026-07-12T01:37:41.290+0900 [INFO]  backend/local: starting Apply operation
+2026-07-12T01:37:41.290+0900 [DEBUG] Starting graph walk: walkInit
+2026-07-12T01:37:41.290+0900 [DEBUG] created provider logger: level=debug
+2026-07-12T01:37:41.290+0900 [INFO]  provider: configuring client automatic mTLS
+2026-07-12T01:37:41.296+0900 [DEBUG] provider: starting plugin: path=.terraform/providers/registry.terraform.io/hashicorp/aws/6.54.0/linux_amd64/terraform-provider-aws_v6.54.0_x5 args=[".terraform/providers/registry.terraform.io/hashicorp/aws/6.54.0/linux_amd64/terraform-provider-aws_v6.54.0_x5"]
+2026-07-12T01:37:41.296+0900 [DEBUG] provider: plugin started: path=.terraform/providers/registry.terraform.io/hashicorp/aws/6.54.0/linux_amd64/terraform-provider-aws_v6.54.0_x5 pid=123963
+2026-07-12T01:37:41.296+0900 [DEBUG] provider: waiting for RPC address: plugin=.terraform/providers/registry.terraform.io/hashicorp/aws/6.54.0/linux_amd64/terraform-provider-aws_v6.54.0_x5
+2026-07-12T01:37:41.365+0900 [DEBUG] provider.terraform-provider-aws_v6.54.0_x5: Starting github.com/hashicorp/terraform-provider-aws@6.54.0 (go1.26.4)...
+2026-07-12T01:37:41.365+0900 [DEBUG] provider.terraform-provider-aws_v6.54.0_x5: Creating Terraform AWS Provider (SDKv2-style)...
+2026-07-12T01:37:41.365+0900 [DEBUG] provider.terraform-provider-aws_v6.54.0_x5: Initializing Terraform AWS Provider (SDKv2-style)...
+2026-07-12T01:37:41.385+0900 [DEBUG] provider.terraform-provider-aws_v6.54.0_x5: Creating Terraform AWS Provider (Framework-style)...
+2026-07-12T01:37:41.385+0900 [DEBUG] provider.terraform-provider-aws_v6.54.0_x5: Initializing Terraform AWS Provider (Framework-style)...
+2026-07-12T01:37:41.386+0900 [INFO]  provider.terraform-provider-aws_v6.54.0_x5: configuring server automatic mTLS: timestamp="2026-07-12T01:37:41.386+0900"
+2026-07-12T01:37:41.391+0900 [DEBUG] provider: using plugin: version=5
+2026-07-12T01:37:41.391+0900 [DEBUG] provider.terraform-provider-aws_v6.54.0_x5: plugin address: network=unix address=/tmp/plugin1925332953 timestamp="2026-07-12T01:37:41.391+0900"
+2026-07-12T01:37:42.458+0900 [DEBUG] provider.stdio: received EOF, stopping recv loop: err="rpc error: code = Unavailable desc = error reading from server: EOF"
+2026-07-12T01:37:42.464+0900 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/aws/6.54.0/linux_amd64/terraform-provider-aws_v6.54.0_x5 id=123963
+2026-07-12T01:37:42.464+0900 [DEBUG] provider: plugin exited
+2026-07-12T01:37:42.464+0900 [DEBUG] Building and walking validate graph
+2026-07-12T01:37:42.464+0900 [DEBUG] pruning unused provider["registry.terraform.io/hashicorp/aws"]
+2026-07-12T01:37:42.464+0900 [DEBUG] Starting graph walk: walkValidate
+2026-07-12T01:37:42.464+0900 [INFO]  backend/local: apply calling Plan
+2026-07-12T01:37:42.464+0900 [DEBUG] Building and walking plan graph for NormalMode
+2026-07-12T01:37:42.464+0900 [DEBUG] pruning unused provider["registry.terraform.io/hashicorp/aws"]
+2026-07-12T01:37:42.464+0900 [DEBUG] Starting graph walk: walkPlan
+2026-07-12T01:37:42.464+0900 [DEBUG] no planned changes, skipping apply graph check
+2026-07-12T01:37:42.541+0900 [INFO]  backend/local: apply calling Apply
+2026-07-12T01:37:42.541+0900 [DEBUG] Building and walking apply graph for NormalMode plan
+2026-07-12T01:37:42.541+0900 [DEBUG] pruning unused provider["registry.terraform.io/hashicorp/aws"]
+2026-07-12T01:37:42.542+0900 [DEBUG] Starting graph walk: walkApply
