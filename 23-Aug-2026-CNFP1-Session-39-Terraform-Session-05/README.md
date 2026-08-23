@@ -54,3 +54,5 @@
 #     Name = "bastion-host"
 #   }
 # }
+
+# ssh-keygen -t rsa -b 4096 -f ./master-japan-key
