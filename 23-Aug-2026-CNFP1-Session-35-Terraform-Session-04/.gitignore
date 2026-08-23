@@ -1,0 +1,9 @@
+.env
+
+# Local .terraform directory (contains downloaded providers and modules)
+.terraform/
+
+# Terraform State files (contains sensitive data and cloud secrets)
+*.tfstate
+*.tfstate.*
+
