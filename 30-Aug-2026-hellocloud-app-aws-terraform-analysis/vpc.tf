@@ -80,7 +80,7 @@ resource "aws_route_table_association" "hellocloud" {
 
 resource "aws_eip" "hellocloud" {
   instance = aws_instance.hellocloud.id
-#   domain   = "vpc"
+  #   domain   = "vpc"
 }
 
 resource "aws_eip_association" "hellocloud" {
