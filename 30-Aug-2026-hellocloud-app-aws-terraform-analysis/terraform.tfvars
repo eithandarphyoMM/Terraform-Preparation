@@ -1,0 +1,5 @@
+prefix         = "eithandar"
+environment    = "UAT"
+region         = "ap-northeast-1"
+placeholder    = "placedog.net"
+placeholder_id = "23"
