@@ -10,4 +10,6 @@ I created an **Excalidraw diagram** to visualize the Terraform resources and the
 
 > Please refer to the Excalidraw diagram below for details.
 
-> https://excalidraw.com/#json=vEfw4--BMcTrH-JUZQuY4,kmBud5stJ0YSOcYNR_et5w
+[> https://excalidraw.com/#json=vEfw4--BMcTrH-JUZQuY4,kmBud5stJ0YSOcYNR_et5w][def]
+
+[def]: https://excalidraw.com/#json=Z91JY9_VlPumgDCC549Lj,B6Bkjgq3YYxrSAhBWTY--w
