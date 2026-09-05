@@ -1,0 +1,20 @@
+% terraform state list  
+data.aws_ami.ubuntu
+data.aws_availability_zones.available
+aws_eip.hellocloud
+aws_eip_association.hellocloud
+aws_instance.hellocloud
+aws_internet_gateway.hellocloud
+aws_key_pair.hellocloud
+aws_route_table.hellocloud
+aws_route_table_association.hellocloud
+aws_security_group.hellocloud
+aws_subnet.hellocloud
+aws_subnet.private[0]
+aws_subnet.private[1]
+aws_subnet.public[0]
+aws_subnet.public[1]
+aws_vpc.hellocloud
+aws_vpc.main[0]
+null_resource.configure-hellocloud-app
+tls_private_key.hellocloud
